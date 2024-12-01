@@ -1,0 +1,35 @@
+menu "Wifi Mesh Sandbox Configuration"
+
+    config MESH_CHANNEL
+        int "channel"
+        range 0 14
+        default 0
+        help
+            mesh network channel.
+
+    config MESH_ROUTER_SSID
+        string "Router SSID"
+        default "TP-Link_4276"
+        help
+            Router SSID.
+
+    config MESH_ROUTER_PASSWD
+        string "Router password"
+        default "xxxxxx"
+        help
+            Router password.
+
+    config MESH_AP_CONNECTIONS
+        int "Mesh AP Connections"
+        range 1 10
+        default 6
+        help
+            The number of mesh stations allowed to connect in.
+
+    config MESH_AP_PASSWD
+        string "Mesh AP Password"
+        default "yyyyyy"
+        help
+            Mesh AP password.
+
+endmenu
