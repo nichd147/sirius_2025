@@ -108,13 +108,13 @@ menu "Example Configuration"
 
     config MESH_ROUTER_SSID
         string "Router SSID"
-        default "ROUTER_SSID"
+        default "TP-Link_4276"
         help
             Router SSID.
 
     config MESH_ROUTER_PASSWD
         string "Router password"
-        default "ROUTER_PASSWD"
+        default "9277053439"
         help
             Router password.
 
