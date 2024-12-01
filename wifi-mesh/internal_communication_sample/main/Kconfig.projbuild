@@ -114,7 +114,7 @@ menu "Example Configuration"
 
     config MESH_ROUTER_PASSWD
         string "Router password"
-        default "9277053439"
+        default "xxxxxx"
         help
             Router password.
 
