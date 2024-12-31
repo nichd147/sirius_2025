@@ -1,1 +1,5 @@
 esp-drone-origin
+crazyflie-clients-python
+ESP-Drone-Android
+*.apk
+other_source
