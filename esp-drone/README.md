@@ -435,3 +435,7 @@ https://bitbucket.org/eldraco2000/crazyflie-programs/src/master/keyboard_control
 ## drone bridge
 
 https://github.com/DroneBridge/ESP32
+
+## gamepad test
+
+https://hardwaretester.com/gamepad
