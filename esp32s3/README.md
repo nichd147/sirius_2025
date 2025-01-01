@@ -11,9 +11,9 @@ https://github.com/espressif/vscode-esp-idf-extension
 
 # RGB-LED not working
 
-EGB-LED works on GPIO48.
+RGB-LED works on GPIO48.
 
-But it could be disabled (on replica for example YD-ESP32-23 2022-V1.3)
+But it might be disabled (on replica; for example YD-ESP32-23 2022-V1.3)
 
 ![alt text](image-1.png)
 
