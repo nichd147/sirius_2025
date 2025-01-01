@@ -3,3 +3,7 @@ https://docs.espressif.com/projects/esp-idf/en/v5.0/esp32/api-reference/network/
 
 # example
 https://github.com/espressif/esp-idf/tree/release/v5.3/examples/mesh/internal_communication
+
+# permision for usb
+
+`sudo chmod 666 /dev/ttyACM0`
