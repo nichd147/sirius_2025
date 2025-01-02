@@ -12,6 +12,11 @@ https://github.com/espressif/esp-drone/issues/66#issuecomment-2373625957
 
 `sudo chmod 666 /dev/ttyACM0`
 
+or execute
+
+`sudo usermod -a -G dialout "$USER"`
+
+
 ## problem with run `cfclient`
 ```
 ...
