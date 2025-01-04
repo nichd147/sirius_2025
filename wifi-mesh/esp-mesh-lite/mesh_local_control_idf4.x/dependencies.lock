@@ -1,0 +1,45 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp_modem:
+    component_hash: 681d7c8417ce0f2a11a562c6998b7b379a4847be41d84673c11c0c7a6b00e918
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.3.0
+  espressif/esp_modem_usb_dte:
+    component_hash: 49f66a3bd49202e36168cf092a1dc453548d488e8f4560ac7e7d21802583e8a7
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.2.1
+  espressif/iot_bridge:
+    component_hash: f1f214eb4e37ea3ffd3717b6d7b0641fa820b5ad84b1d2facd7cceecc95d9e39
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.6.0
+  espressif/mesh_lite:
+    component_hash: bd4586216bbb8dc837432c6410d747b78d8a0bd4af98e10d8d5106e212cfc0b5
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.10.4
+  espressif/usb_host_cdc_acm:
+    component_hash: f76e1283e7ef0e7970e8a708c4ee443ff0aa112572e25319d30b7ec555cc0aee
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.0.6
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.8
+manifest_hash: 8d71d86eb24243e783ec8c9d4d256ac8c2fd09d2c863b838c4a76cfb8aac1579
+target: esp32s3
+version: 1.0.0

@@ -1,0 +1,10 @@
+dependencies:
+  espressif/mesh_lite: "0.10.4"
+  espressif/iot_bridge: "0.11.4"
+  usb_device:
+    version: "*"
+    override_path: "../components/usb/usb_device"
+  idf: ">=4.3"
+
+  # espressif/esp_modem: "1.3.0"
+  # espressif/esp_modem_usb_dte: "1.2.1"
