@@ -17,6 +17,7 @@ static const char *TAG = "blinking";
 
 void blink_led(void)
 {
+    ESP_LOGI(TAG, "blink_led");
     /* If the addressable LED is enabled */
     if (s_led_state) {
         /* Set the LED pixel using RGB from 0 (0%) to 255 (100%) for each color */

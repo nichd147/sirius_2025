@@ -161,6 +161,10 @@ static void udp_server_task(void *pvParameters)
 
 void app_main(void)
 {
+    configure_led();
+    blink_led();
+    blink_led();
+
     ESP_ERROR_CHECK(nvs_flash_init());
     ESP_ERROR_CHECK(esp_netif_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
@@ -170,7 +174,8 @@ void app_main(void)
      * examples/protocols/README.md for more information about this function.
      */
     ESP_ERROR_CHECK(example_connect());
-    configure_led();       
+
+    blink_led();
 
     xTaskCreate(udp_server_task, "udp_server", 4096, (void *)AF_INET, 5, NULL);
 }
