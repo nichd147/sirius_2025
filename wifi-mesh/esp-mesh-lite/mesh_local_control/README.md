@@ -1,3 +1,13 @@
+# how to listen
+1. compile/flash
+2. run in OS
+`socat - TCP-LISTEN:8070,fork,reuseaddr`
+
+
+
+
+
+
 - [中文版本](https://github.com/espressif/esp-mesh-lite/blob/master/examples/mesh_local_control/README_CN.md)
 
 | Supported Targets | ESP32 | ESP32-C3 | ESP32-S2 | ESP32-S3 | ESP32-C2 | ESP32-C6 |
